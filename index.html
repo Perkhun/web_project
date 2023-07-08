@@ -5,117 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="img/кр.png" type="image/x-icon">
+    <title>Figmaland</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!--<link rel="stylesheet" href="./css/index.css">-->
 </head>
 
 <body>
-    <header>
-        <img src="img/Rectangle 9.png" alt="Background">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Product</li>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <img src="img/Rectangle 4.png" alt="Logo">
-            <img src="img/Vector.png" alt="Twitter">
-            <img src="img/Vector (1).png" alt="Facebook">
-            <img src="img/Vector (2).png" alt="LinkedIn">
-        </nav>
-        <h1>The best products start with Figma</h1>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <button>Try For Free</button>
-    </header>
-
+    <header data-include="partials/header.partial.html"></header>
     <main>
-        <div>
-            <h2>Features</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-
-            <div>
-                <img src="img/Vector (3).png" alt="OpenType features Variable fonts">
-                <b>OpenType features Variable fonts</b>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </div>
-            <div>
-                <img src="img/mdi_draw.png" alt="Design with real data">
-                <b>Design with real data</b>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </div>
-            <div>
-                <img src="img/Vector (4).png" alt="Fastest way to take action">
-                <b>Fastest way to take action</b>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-            </div>
-        </div>
-
-        <img src="img/screen (1).png" alt="screen">
-
-        <div>
-            <div>
-                <h2>Fastest way to organize</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <button>Try For Free</button>
-            </div>
-            <img src="img/SCREEN MASK.png" alt="Laptop">
-        </div>
-
-        <div>
-            <img src="img/# screen content.png" alt="Screen content">
-            <div>
-                <b>At your fingertips</b>
-                <h2>Lightning fast prototyping </h2>
-                <b>Subscribe to our Newsletter</b>
-                <p>Available exclusivery on Figmaland</p>
-                <input type="email" placeholder="Your Email">
-                <button>Subscribe</button>
-            </div>
-        </div>
-
-        <div>
-            <h2>Partners</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            <table>
-                <tr>
-                    <td><img src="img/@ partner-style-2.png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (1).png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (2).png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (3).png" alt=""></td>
-                </tr>
-                <tr>
-                    <td><img src="img/@ partner-style-2 (4).png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (5).png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (6).png" alt=""></td>
-                    <td><img src="img/@ partner-style-2 (7).png" alt=""></td>
-                </tr>
-            </table>
-            <button>Try For Free</button>
-        </div>
-
-        <div>
-            <h2>Testimonials</h2>
-            <img src="img/Vector (5).png" alt="IBM">
-            <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan
-                their schedule.</p>
-            <img src="img/client.png" alt="Client">
-            <button>More Testimonials</button>
-        </div>
-
-        <div>
-            <h2>Pricing</h2>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        </div>
-
-        <!-- <div>About free</div>
-    <div> standart </div>
-    <div> business </div> -->
-
+        <section data-include="partials/features.partial.html"></section>
+        <section data-include="partials/oragization.partial.html"></section>
+        <section data-include="partials/newsletter.partial.html"></section>
+        <section data-include="partials/partners.partial.html"></section>
+        <section data-include="partials/testimonials.partial.html"></section>
+        <section data-include="partials/pricing.partial.html"></section>
+        <section data-include="partials/contacts.partial.html"></section>
     </main>
-    <footer></footer>
+    <footer data-include="partials/footer.partial.html"></footer>
 
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <!-- <script type="module" src="js/index.js"></script>-->
 </body>
 
 </html>
