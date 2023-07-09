@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ui-background-img: url(../img/header_backgroud.png);
+}
+
+/*.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
+body {
+  background-color: lightcyan;
+  /*background-image: var(--ui-background-img);
+  background-repeat: repeat;
+  overflow-x: hidden;*/
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*.title-section {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 21px;
+  text-align: center;
+  color: var(--ui-brand-color);
+}
+
+p,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}*/
