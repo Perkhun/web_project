@@ -1,0 +1,48 @@
+.pricing-card {
+    background-color: white;
+    height: 607px;
+    width: 335px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: auto;
+}
+.card-price {
+    display: flex;
+    justify-content: center;
+}
+
+.current-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.price-current,
+.price-date,
+.price-number {
+    margin-bottom: 0;
+}
+
+.price-number {
+    font-weight: 700;
+    font-size: 74px;
+    margin-right: 10px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

@@ -8,6 +8,9 @@
 
 :root {
   --ui-background-img: url(../img/header_backgroud.png);
+  --main-color-for-text: #252B42;
+  --button-color: #2091F9;
+  --text-color: #FFFFFF;
 }
 
 /*.container {
@@ -22,9 +25,25 @@
 
 body {
   background-color: lightcyan;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /*background-image: var(--ui-background-img);
   background-repeat: repeat;
   overflow-x: hidden;*/
+}
+
+h2, h6 {
+  color: var(--main-color-for-text);
+  display: flex;  /*can change and delete*/
+  justify-content: center;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 ul {
@@ -38,6 +57,22 @@ a {
 img {
   width: 100%;
   display: block;
+}
+
+.button {
+  width: 236px;
+  height: 60px;
+  border-radius: 35px;
+
+  background-color: var(--button-color);
+display: flex;
+justify-content: center;
+align-items: center;
+  margin: auto;    
+}
+
+.button-text {
+  color: var( --text-color);
 }
 
 /*.title-section {

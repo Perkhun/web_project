@@ -1,4 +1,9 @@
-
+.header {
+    background-image: var(--ui-background-img);
+    height: 927px;
+    background-position: center;
+   
+  }
 .header img {
     height: 36px;
     width: 182px;
@@ -10,12 +15,25 @@
     margin: 10px;
 }
   
-  .icon:hover path {
+.text-header {
+    color: var(--text-color);
+    font-weight: 400;
+    display: flex;
+   justify-content: center;
+}
+.header__title {
+    font-size: 48px;
+  
+}
+.header__subtitle {
+    font-size: 28px;
+}
+  /*.icon:hover path {
     fill: var(--ui-light-accent-color);
     background-color: ye;
   }
 
-  /*.app:hover {
+  .app:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }*/
   
