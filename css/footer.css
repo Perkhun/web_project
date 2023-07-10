@@ -1,9 +1,8 @@
 .footer {
-    /*background-color: var( --main-color-for-page);*/
-    background-color: beige;
+    background-color: var( --main-color-for-page);
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -11,6 +10,16 @@
     margin-top: 50px;
 }
 
+.footer__section-items,
+.footer__section-title {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer__section-item {
+    margin-top: 15px;
+}
 .footer__contacts-item-icon {
     height: 32px;
     width: 26px;
@@ -40,6 +49,7 @@
 .footer__contacts-apps {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px
 }
 
 .footer__contacts-app-item {
@@ -47,5 +57,5 @@
     height: 40px;
     display: flex;
     flex-direction: row;
-    margin-right: 5%;
+    margin-right: 30px;
 }
