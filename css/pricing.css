@@ -9,6 +9,15 @@
     align-items: center;
     margin: auto;
 }
+
+.card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--subcolor-for-text);
+    display: flex;
+    justify-content: center;
+
+}
 .card-price {
     display: flex;
     justify-content: center;
@@ -31,6 +40,11 @@
     font-weight: 700;
     font-size: 74px;
     margin-right: 10px;
+}
+
+.price-current {
+font-weight: 700;
+font-size: 20px;
 }
 
 .card-items {

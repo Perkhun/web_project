@@ -1,0 +1,35 @@
+
+.contacts__apps {
+    display:flex;
+    justify-content: center;
+}
+
+.app-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.info-item-icon {
+    height: 32px;
+    width: 26px;
+ 
+}
+
+.info-item-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--subcolor-for-text);
+}
+
+.info-item {
+    display: flex;
+    justify-content: start;
+}
+
+.contacts__info {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

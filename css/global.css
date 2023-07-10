@@ -8,9 +8,12 @@
 
 :root {
   --ui-background-img: url(../img/header_backgroud.png);
-  --main-color-for-text: #252B42;
+  --main-color-for-page: #252B42;
   --button-color: #2091F9;
   --text-color: #FFFFFF;
+  --subcolor-for-text: #374754;
+
+
 }
 
 /*.container {
@@ -31,7 +34,7 @@ body {
   overflow-x: hidden;*/
 }
 
-h2, h6 {
+h2, h4, h6 {
   color: var(--main-color-for-text);
   display: flex;  /*can change and delete*/
   justify-content: center;
@@ -41,7 +44,7 @@ h2 {
   font-weight: 400;
 }
 
-h6 {
+h6, h4 {
   font-size: 20px;
   font-weight: 700;
 }
