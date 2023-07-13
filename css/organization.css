@@ -1,2 +1,9 @@
 
+.organization__text {
+    font-size: 28px;
+    margin: 20px 0 50px;
+}
 
+.organization__image-content {
+    margin: 40px 0 80px;
+}

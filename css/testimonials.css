@@ -1,4 +1,7 @@
 
+.testimonials__title {
+    margin-top: 100px;
+}
 .testimonials__container {
     display: flex;
     flex-direction: column;

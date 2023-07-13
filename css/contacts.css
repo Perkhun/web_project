@@ -1,7 +1,17 @@
-
+.contacts__title {
+    margin: 150px 0 0;
+}
+.contacts__text {
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px;
+}
 .contacts__apps {
     display:flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .app-item {
@@ -14,48 +24,77 @@
 .info-item-icon {
     height: 32px;
     width: 26px;
- 
+   
 }
 
 .info-item-text {
     font-size: 16px;
     font-weight: 400;
     color: var(--subcolor-for-text);
+    margin-left: 20px;
 }
 
 .info-item {
     display: flex;
     justify-content: start;
+    margin-bottom: 20px
 }
 
 .contacts__info {
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0 35px;
 }
 
 .contacts__form {
     background-color: white;
-    height: 670px;
+   /* height: 670px;*/
     width: 380px;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
     margin-top: 50px;
     box-shadow: 0px 13px 19px 0px #00000012;
     border-radius: 20px;
-    /* display: flex;
+    /* display: flex;*/
 }
 
+.form-title {
+    padding: 50px 0 45px;
+}
 .form-input {
     display: flex;
     flex-direction: column;
+    
     /* align-items: flex-start;*/
 }
 
 .input {
         width: 280px;
+    background-color: var(--button-color-light);
+    border: 1px;
+    margin: 0 50px 45px 50px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var( --main-color-for-page);
+    text-align: start;
+    padding-left: 15px;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  
+  .input-data {
     height: 54px;
     border-radius: 40px;
-    background-color: #F5F5F5;
-    border: 1px;
-}
+  }
+
+  .form-button {
+    width: 145px;
+    padding: 0 0 50px 50px;
+  }
+
+  .contacts-button-text {
+    width: 145px;
+  }

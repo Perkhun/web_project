@@ -7,7 +7,7 @@
 }
 
 .footer__section {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .footer__section-items,
@@ -21,15 +21,17 @@
     margin-top: 15px;
 }
 .footer__contacts-item-icon {
-    height: 32px;
-    width: 26px;
-
+    height: 46px;
+    width: 46px;
 }
 
 .footer__contacts-item-text {
     font-size: 16px;
     font-weight: 400;
-    color: var(--subcolor-for-text);
+    color: var(--text-color);
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .footer__contacts-item {

@@ -1,12 +1,27 @@
 
+.features__text {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.features__video {
+    margin: 50px 0;
+}
+
 .features__conteiner-item {
     width: 255px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-bottom: 75px;
 }
 .features__conteiner-item-img {
     height: 61px;
     width: 61px;
+}
+
+.features__conteiner-item-title {
+    margin: 20px 0;
 }
